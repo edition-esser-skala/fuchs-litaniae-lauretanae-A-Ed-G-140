@@ -1,0 +1,21 @@
+composer:
+  last: Fuchs
+  first: Johann Nepomuk
+title: Lytaniæ lauretana
+genre: litany
+scoring: S, A, T, B (coro), 2 cl (C), 2 clno (C), timp (C–G), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: A-Ed
+    shelfmark: G 140
+    date: 1821-05-12
+    rism: 600038368
+    url: https://dommusikarchiv.martinus.at/site/werkverzeichnis/gallery/310.html
+    license: public domain
+    principal: true
+imslp:
+parts:
+  cl1: Clarinetto I in C
+  cl2: Clarinetto II in C
+  ottoni: Clarino I, II in C\\Timpani in C–G
