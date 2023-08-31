@@ -3,7 +3,7 @@ composer:
   first: Johann Nepomuk
 title: Lytaniæ lauretana
 genre: litany
-scoring: S, A, T, B (coro), 2 cl (C), 2 clno (C), timp (C–G), 2 vl, vla, b, org
+scoring: S, A, T, B (coro), 2 cl (C), 2 cor (\flat E/F), 2 clno (C), timp (C–G), 2 vl, vla, b, org
 license: cc-by-sa-4.0
 sources:
   B1:
@@ -18,4 +18,5 @@ imslp:
 parts:
   cl1: Clarinetto I in C
   cl2: Clarinetto II in C
+  cor12: Corno I, II in \flat E/F
   ottoni: Clarino I, II in C\\Timpani in C–G
