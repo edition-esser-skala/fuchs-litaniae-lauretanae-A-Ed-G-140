@@ -296,3 +296,88 @@ SalusViola = {
     es2 r\fermata \bar "|." %55 finis
   }
 }
+
+ReginaViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key c \major \time 2/2 \tempoRegina
+    e2\f r
+    g r
+    g2. f4
+    e2 r
+    g r %5
+    g a4 a
+    g2 r4 d
+    c c h d
+    c r d r
+    c c h d %10
+    c e2 e4
+    c2 as'
+    g4 e2 e4
+    c2 h8( d f as)
+    g4 g2 g4 %15
+    a! e a2~
+    a4 a a r
+    a e a2~
+    a4 a a r
+    g2 g4 g %20
+    g2 g4 g
+    a2 d,4 d
+    a'2 d,4 d
+    c2 a
+    h4 h' r g %25
+    a a a a
+    g g, r g'
+    e2 e
+    d fis4 a
+    cis,2 e4 a %30
+    d, d2 fis8 a
+    g2 r4 d
+    e e dis dis
+    e e2 a4
+    g d!2 c4 %35
+    h2 r4 d
+    e e dis dis
+    e2 g4 a
+    g h, c d!
+    h2 r4 g' %40
+    g2 r4 g
+    g2 r4 g
+    g e r2
+    e r4 e
+    e2 r4 e %45
+    e2 r4 e
+    e c a a
+    a2. a'4
+    g d8 h g4 g
+    g g' g c, %50
+    c a r2
+    a'4 a a a
+    g2. g4
+    g2. g4
+    a2. a4 %55
+    g g2 g4
+    g g gis gis
+    a a,2 a'4
+    g! g g g
+    g2 r4 g %60
+    a a gis gis
+    a a r a
+    g! g f f
+    e g2 g4
+    a4. a8 a4 a %65
+    a a r a
+    r g r g
+    g g2 g4
+    a4. a8 a4 a
+    a a r a %70
+    r g r g
+    g r g g
+    g r g r
+    g g, g' g
+    g g, g' g %75
+    g2 r
+    c, c
+    c r\fermata \bar "|." %78 finis
+  }
+}

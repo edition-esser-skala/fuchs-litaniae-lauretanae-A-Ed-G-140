@@ -586,3 +586,169 @@ SalusBassFigures = \figuremode {
   <8 3>1
   r %55 finis
 }
+
+ReginaOrgano = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoRegina
+    \mvTr c2\f-\soloE r
+    h r
+    c4 e g g,
+    c1
+    h-\tuttiE %5
+    c4 c' f, fis
+    g2 r4 g
+    e2 g
+    c4 r g r
+    e e g g %10
+    c, c' r c
+    c, c' c c
+    c, c' r c
+    c, c' c c
+    c, c'2 b4 %15
+    a4. g8 f4 d
+    cis2 d4 r
+    a'4. g8 f4 d
+    cis cis d r
+    g( f) e r %20
+    g( f) e r
+    c'2 h4 h
+    c2 h4 h
+    c2 a
+    h4 h, r g' %25
+    a a fis fis
+    g2 r4 e
+    c c cis cis
+    d d r d
+    d d r d %30
+    d d2 d4
+    g g r h,
+    c c h h
+    c c2 c4
+    d d d d %35
+    g2 r4 h,
+    c c h h
+    c c r c
+    d d d d
+    g2 r4 f! %40
+    e2 r4 c
+    h2 r4 h
+    c c' r2
+    e,4 e r d
+    c2 r4 a' %45
+    gis2 r4 gis
+    a a c, c
+    d d f f
+    g! g h, h
+    c c e e %50
+    f2 r
+    f4 f fis fis
+    g2 r4 g
+    g2 r4 g
+    g2 r4 g %55
+    g g2 f!4
+    e e e e
+    f f2 f4
+    g g g g
+    e2 r4 e %60
+    f f e e
+    f f2 f4
+    g g g g
+    c, c'2 b4
+    a4. g8 f4 e %65
+    d r f r
+    g r g r
+    c, c'2 b4
+    a4. g8 f4 e
+    d r f r %70
+    g r g r
+    c, r g' r
+    c r g r
+    c c g-\soloE g
+    c c g g %75
+    c2 r
+    c c
+    c, r\fermata \bar "|." %78 finis
+  }
+}
+
+ReginaBassFigures = \figuremode {
+  r1
+  <6>
+  r2 <6 4>4 <[7] 3>
+  r1
+  <6> %5
+  r2 <6>4 <5>
+  r1
+  <6>2 <7>
+  r1
+  <6>2 <7> %10
+  r1
+  <6 4>2 <7 6- 4>
+  <8 3>1
+  <6 4>2 <7 6- 4>
+  <8 3>2. <\t \t>4 %15
+  <_+>4. <\t>8 <6>2
+  <6>1
+  <_+>4. <\t>8 <6>2
+  <[6]>1
+  <5 3>4 <\t \t> <6!>2 %20
+  \bo <[5 3]>4 \bc <[\t \t]> <6>2
+  <4\+ 2> <6>
+  <4\+ 2> <6>
+  <9> <3>
+  <9 5\+> <3> %25
+  <9> <3>
+  <9> <3>
+  <6 5> <7- \t>
+  <_+>1
+  <7\\ 2> %30
+  <7! _+>
+  r2. <3>4
+  <5 3>2 <\t _+>
+  <5>2. <8 6>4
+  <6 4>2 <[7] _+> %35
+  <3>2. <6>4
+  <5 3>2 <\t _+>
+  <5>2. <8 6>4
+  <6 4>2 <[7] _+>
+  <3>2. <\t>4 %40
+  <6>1
+  q
+  r
+  <_+>2. <\t>4
+  <6>1 %45
+  <6>2. <5>4
+  r2 <6>
+  r q
+  r q
+  r q %50
+  r1
+  <6>2 <\t>4 <5>
+  r1
+  <6 4>
+  <7\\ 4 2> %55
+  <8 3>2. <\t \t>4
+  <6 3>2 <\t _+>
+  <5>2. <6>4
+  <6 4>2 <[7] 3>
+  <6>1 %60
+  <5 3>2 <\t _+>
+  <\t 3>2. <6>4
+  <6 4>2 <[7] 3>
+  <8 3>2. <\t \t>4
+  <_+>4. <\t>8 <6>4 <6\\> %65
+  r2 <[6]>
+  <6 4!> <[7] 3>
+  <8 3>2. <\t \t>4
+  <_+>4. <\t>8 <6>4 <6\\>
+  r2 <6> %70
+  <6 4!> <[7] 3>
+  r <7>
+  r q
+  r1
+  r %75
+  r
+  r
+  r %78 finis
+}

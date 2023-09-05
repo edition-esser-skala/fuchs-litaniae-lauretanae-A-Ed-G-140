@@ -296,3 +296,88 @@ SalusViolinoII = {
     g2 r\fermata \bar "|." %55 finis
   }
 }
+
+ReginaViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoRegina
+    c'2\f g8( e' d c)
+    d2 g,8( f' e d)
+    e( g c c,) c4-! h-!
+    c2 g8( e' d c)
+    d2 g,8( f' e d) %5
+    e( g f e) a4 c,
+    h8( g h d g a h g)
+    c( g) g-! g-! g( f) f-! f-!
+    e( g e c) h( d g h)
+    c( g) g-! g-! g( f) f-! f-! %10
+    e( c h c d c h c)
+    f,2 d
+    e8( c' h c d c h c)
+    f,2 d
+    e4 e2 e4 %15
+    cis'8( a h cis d e f d)
+    e( gis a g g f e d)
+    cis( a h cis d e f d)
+    e( gis a g g f e d)
+    h( g a h c! d e c) %20
+    h( g a h c d e c)
+    fis( d e fis g a h g)
+    fis( d e fis) g( h) d-! d-!
+    e,( d' c h) c( e, fis e)
+    d( c' d, c') d,( h' d, h') %25
+    c,( h' a g) a( c, d c)
+    \slurDashed h( a' h, a') h,( g' h, g')
+    a,( g' a, g') b,( g' b, g') \slurSolid
+    fis( d cis d) a( fis' e d)
+    g( e dis e) a,( g' fis e) %30
+    a( g fis g) a( fis d c!)
+    h( h' a g) fis( g a g)
+    fis( g a g fis g a g)
+    fis( g a g) e( e' d c)
+    h( d g, h) \once \slurDashed a( c fis, a) %35
+    g( h a g fis g a g)
+    fis( g a g fis g a g)
+    fis( g a g) \once \slurDashed e( e' d c)
+    h( d g, h) a c fis, a
+    \once \slurDashed g( g,) \parOn g-\parenthesize-! \parOff g-\parenthesize-! h( d c h) %40
+    c( g) \parOn g-\parenthesize-! \parOff g-\parenthesize-! g( e' d c)
+    d( g,) \parOn g-\parenthesize-! \parOff g-\parenthesize-! g( f' e d)
+    e( c d e d c h a)
+    \once \slurDashed gis( e') \parOn e-\parenthesize-! \parOff e-\parenthesize-! e( gis fis e)
+    a( e) e-! e-! e( c' h a) %45
+    \once \slurDashed h( e,) \parOn e-\parenthesize-! \parOff e-\parenthesize-! e( d' c h)
+    a4 a, r e'
+    d8 \parOn d,-\parenthesize-! f-! \parOff a-\parenthesize-! d( cis d c)
+    h4 g r d'
+    c8 \parOn c,-\parenthesize-! e-! \parOff g-\parenthesize-! c( h c b) %50
+    a \parOn f-\parenthesize-! a-! \parOff c-\parenthesize-! f( e f e)
+    d4 d~ d8 e c d
+    \once \slurDashed h( g h d) g4 d
+    \once \slurDashed c( e8 g) c4 e,
+    fis8( d fis a) c4 a, %55
+    \once \slurDashed h8( d g h) d4 h
+    c8( e d c h c d c)
+    h( c d c h a g f)
+    e( g e c) d4 h'
+    c8( e d c h c d c) %60
+    h( c d c h c d c)
+    h( c d c h a g f)
+    e( g c, e) d( f h, d)
+    c4 e2 e4
+    e2 f4 g %65
+    a a r f
+    r e r d
+    e e2 e4
+    e4. e8 f4 g
+    a a r f %70
+    r e r d
+    e8( g e c) h( d h g)
+    e'( g e c) h( d h g)
+    e'( g e c) h( d h g)
+    e'( g e c) h( d h g) %75
+    e'2 r
+    <c e,> q
+    c, r\fermata \bar "|." %78 finis
+  }
+}

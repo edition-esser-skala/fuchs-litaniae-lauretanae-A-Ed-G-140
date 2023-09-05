@@ -539,3 +539,158 @@ SalusTenoreLyrics = \lyricmode {
   bis, pro no --
   bis. %54 finis
 }
+
+ReginaTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoRegina
+    R1*3
+    r2 r4 \mvTr e\f^\tuttiE
+    d2. d4 %5
+    c c a(^\critnote d)
+    d2 r
+    r4 c h d
+    c e r2
+    r4 c h d %10
+    c e r e
+    c2 f
+    e e4 e
+    c2 f4 f
+    e2 e %15
+    e d4 f
+    e2 d4 r
+    r2 r4 f
+    e4. e8 d4 d
+    d2 c!4 r %20
+    r d c c
+    fis2 d4 d
+    d2 d4 d
+    e2 e4 e
+    d2 d %25
+    c c4 c
+    h2 h
+    e e4 e
+    a, a r d
+    e2 e %30
+    a,4. a8 a4 d
+    d2 r4 g,
+    g2 g
+    g e'4 e
+    d d d2 %35
+    d r4 g,
+    g2 g
+    g e'4 e
+    d2( c)
+    h r4 d %40
+    c c e e
+    d2 d4 d
+    c2 r
+    r4 h h h
+    a2 e'4 e %45
+    e1
+    e4 e e e
+    d2 d
+    d4 h d d
+    c1 %50
+    c2 r
+    r4 a a d
+    d2 h4 h
+    c2 c4 c
+    c2 c %55
+    d4. d8 d4 d
+    c2 c
+    c c4 a
+    g1
+    g2 r4 c %60
+    c2 c
+    c c4 a
+    g1
+    g4 e' e e
+    e2 a,4 a %65
+    a2 a
+    g1
+    g4 e' e e
+    e2 a,4 a
+    a2 a %70
+    g1
+    g4 c h h
+    c2( h)
+    c r
+    R1*3 %77
+    R1\fermata \bar "|." %78 finis
+  }
+}
+
+ReginaTenoreLyrics = \lyricmode {
+  Re -- %4
+  gi -- na %5
+  An -- ge -- lo --
+  rum,
+  o -- ra pro
+  no -- bis,
+  o -- ra pro %10
+  no -- bis, re --
+  gi -- na
+  Pa -- tri -- ar --
+  cha -- rum, o --
+  ra pro %15
+  no -- bis, pro
+  no -- bis,
+  re --
+  gi -- na Pro -- phe --
+  ta -- rum, %20
+  o -- ra pro
+  no -- bis, pro
+  no -- bis, re --
+  gi -- na A --
+  po -- sto -- %25
+  lo -- rum, o --
+  ra pro
+  no -- bis, pro
+  no -- bis, re --
+  gi -- na %30
+  Mar -- ty -- rum, o --
+  ra, o --
+  ra pro
+  no -- bis, o --
+  ra pro no -- %35
+  bis, o --
+  ra pro
+  no -- bis, pro
+  no --
+  bis, re -- %40
+  gi -- na Con -- fes --
+  so -- rum, o --
+  ra,
+  o -- ra pro
+  no -- bis, pro %45
+  no --
+  bis, re -- gi -- na
+  Vir -- gi --
+  num, o -- ra pro
+  no -- %50
+  bis,
+  o -- ra pro
+  no -- bis, re --
+  gi -- na San --
+  cto -- rum %55
+  o -- mni -- um, o --
+  ra pro
+  no -- bis, pro
+  no --
+  bis, o -- %60
+  ra pro
+  no -- bis, pro
+  no --
+  bis, o -- ra pro
+  no -- bis, o -- %65
+  ra pro
+  no --
+  bis, o -- ra pro
+  no -- bis, o --
+  ra pro %70
+  no --
+  bis, o -- ra pro
+  no --
+  bis. %74 finis
+}

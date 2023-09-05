@@ -539,3 +539,158 @@ SalusAltoLyrics = \lyricmode {
   bis, pro no --
   bis. %54 finis
 }
+
+ReginaAlto = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoRegina
+    R1*3
+    r2 r4 \mvTr g'\f^\tuttiE
+    g2. g4 %5
+    g g a2
+    g r
+    r4 g g h
+    c g r2
+    r4 g g h %10
+    c g r g
+    f2 as
+    g g4 g
+    f2 as4 as
+    g2 g %15
+    a! a4 a
+    a2 a4 r
+    r2 r4 a
+    a4. a8 a4 a
+    g2 g4 r %20
+    r g g g
+    a2 g4 g
+    fis( a) g g
+    g2 a4 fis
+    fis2 g %25
+    c, d4 d
+    d2 e
+    g g4 g
+    fis fis r fis
+    g2 g %30
+    fis4. fis8 fis4 fis
+    g2 r4 g
+    g2 g
+    g g4 a
+    g g a2 %35
+    g r4 g
+    g2 g
+    g g4 a
+    g2( fis)
+    g r4 g %40
+    g g g g
+    g2 g4 g
+    g2 r
+    r4 gis gis gis
+    a2 a4 a %45
+    h1
+    a4 a a a
+    a2 a
+    g!4 g g g
+    g1 %50
+    f2 r
+    r4 a a a
+    g2 g4 g
+    g2 g4 g
+    a2 a %55
+    h4. h8 h4 g
+    g2 gis
+    a f4 f
+    e2( f)
+    e r4 g %60
+    a2 gis
+    a f4 f
+    e2( f)
+    e4 g g g
+    a2 a4 a %65
+    a2 f
+    e( f)
+    e4 g g g
+    a2 a4 a
+    a2 f %70
+    e( f)
+    e4 e g g
+    g2( f)
+    e r
+    R1*3
+    R1\fermata \bar "|." %78 finis
+  }
+}
+
+ReginaAltoLyrics = \lyricmode {
+  Re -- %4
+  gi -- na %5
+  An -- ge -- lo --
+  rum,
+  o -- ra pro
+  no -- bis,
+  o -- ra pro %10
+  no -- bis, re --
+  gi -- na
+  Pa -- tri -- ar --
+  cha -- rum, o --
+  ra pro %15
+  no -- bis, pro
+  no -- bis,
+  re --
+  gi -- na Pro -- phe --
+  ta -- rum, %20
+  o -- ra pro
+  no -- bis, pro
+  no -- bis, re --
+  gi -- na A --
+  po -- sto -- %25
+  lo -- rum, o --
+  ra pro
+  no -- bis, pro
+  no -- bis, re --
+  gi -- na %30
+  Mar -- ty -- rum, o --
+  ra, o --
+  ra pro
+  no -- bis, o --
+  ra pro no -- %35
+  bis, o --
+  ra pro
+  no -- bis, pro
+  no --
+  bis, re -- %40
+  gi -- na Con -- fes --
+  so -- rum, o --
+  ra,
+  o -- ra pro
+  no -- bis, pro %45
+  no --
+  bis, re -- gi -- na
+  Vir -- gi --
+  num, o -- ra pro
+  no -- %50
+  bis,
+  o -- ra pro
+  no -- bis, re --
+  gi -- na San --
+  cto -- rum %55
+  o -- mni -- um, o --
+  ra pro
+  no -- bis, pro
+  no --
+  bis, o -- %60
+  ra pro
+  no -- bis, pro
+  no --
+  bis, o -- ra pro
+  no -- bis, o -- %65
+  ra pro
+  no --
+  bis, o -- ra pro
+  no -- bis, o --
+  ra pro %70
+  no --
+  bis, o -- ra pro
+  no --
+  bis. %74 finis
+}

@@ -235,3 +235,85 @@ SalusClarinettoI = {
     R1\fermata \bar "|." %55 finis
   }
 }
+
+ReginaClarinettoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoRegina
+    c'2\f r
+    d r
+    e c4 d
+    c2 r
+    d r %5
+    e d4 c
+    h d d d
+    g2 d
+    e d
+    g f %10
+    e4 e2 e4
+    f2 d
+    e4 e2 e4
+    f1
+    e %15
+    R1*4
+    d2( e) %20
+    d( e)
+    fis g
+    fis g
+    e1
+    d %25
+    c
+    a'2 g
+    g1
+    fis
+    g %30
+    a
+    g2 r4 g
+    g2 g
+    g e4 a
+    g2 fis %35
+    g r4 g
+    g2 g
+    g e4 a
+    g2 fis
+    g r4 g %40
+    g2 r4 g
+    g2. g4
+    e e e e
+    e1
+    e2. e4 %45
+    e2. e4
+    e1
+    f2 d
+    h d
+    e c %50
+    a4 r r2
+    R1
+    d2. d4
+    e2. e4
+    fis2. fis4 %55
+    g1
+    g2 gis
+    a2. f4
+    e2 d
+    g2. g4 %60
+    a2 gis
+    a2. f4
+    e2 d
+    \once \tieDashed e1~
+    e2 a4 g %65
+    f2 f
+    e d
+    e1~
+    e2 a4 g
+    f1 %70
+    e2 d
+    e d
+    e d
+    e d
+    e d %75
+    e r
+    e e
+    c r\fermata \bar "|." %78 finis
+  }
+}

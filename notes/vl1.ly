@@ -296,3 +296,88 @@ SalusViolinoI = {
     c2 r\fermata \bar "|." %55 finis
   }
 }
+
+ReginaViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoRegina
+    c'2\f g8( e' d c)
+    d2 g,8( f' e d)
+    e( g c c,) e4-! d-!
+    c2 g8( e' d c)
+    d2 g,8( f' e d) %5
+    e( g f e) a4 c,
+    h8( g h d g a h g)
+    c( g) g-! g-! g( f) f-! f-!
+    e( g e c) h( d g h)
+    c( g) g-! g-! g( f) f-! f-! %10
+    e( c h c d c h c)
+    f2 d
+    c8( c h c d c h c)
+    f2 d
+    c4 c2 c4 %15
+    cis8( a h cis d e f d)
+    e( gis a g g f e d)
+    cis( a h cis d e f d)
+    e( gis a g g f e d)
+    h( g a h c! d e c) %20
+    h( g a h c d e c)
+    fis( d e fis g a h g)
+    fis( d e fis) g( h) d-! d-!
+    e,( d' c h) c( e, fis e)
+    d( c' d, c') d,( h' d, h') %25
+    c,( h' a g) a( c, d c)
+    h( a' h, a') h,( g' h, g')
+    a,( g' a, g') b,( g' b, g')
+    fis( d cis d) a( fis' e d)
+    g( e dis e) a,( g' fis e) %30
+    a( g fis g) a( fis d c!)
+    h( h' a g) fis( g a g)
+    fis( g a g fis g a g)
+    fis( g a g) \once \slurDashed e( e' d c)
+    h( d g, h) \once \slurDashed a( c fis, a) %35
+    g( h a g fis g a g)
+    fis( g a g fis g a g)
+    fis( g a g) \once \slurDashed e( e' d c)
+    h( d g, h) a c fis, a
+    g( g,) g-! g-! h( d c h) %40
+    c( g) g-! g-! g( e' d c)
+    d( g,) g-! g-! g( f' e d)
+    e( c d e d c h a)
+    gis( e') e-! e-! e( gis fis e)
+    a( e) e-! e-! e( c' h a) %45
+    h( e,) e-! e-! e( d' c h)
+    c a,-! c-! e-! a( gis a g)
+    f4 a, r a
+    h8 g-! h-! d-! g( fis g f)
+    e4 g, r g %50
+    a8 f-! a-! c-! f( e f e)
+    d4 d~ d8 e c d
+    h( g h d) g4 d
+    e8( c e g) c4 e,
+    fis8( d fis a) c4 fis, %55
+    g8( d g h) d4 h
+    c8( e d c h c d c)
+    h( c d c h a g f)
+    e( g e c) d4 h'
+    c8( e d c h c d c) %60
+    h( c d c h c d c)
+    h( c d c h a g f)
+    e( g c, e) d( f h, d)
+    c4 c'2 c4
+    cis2 d4 e %65
+    f f r d
+    r c! r h
+    c8( e d c) c( e d c)
+    cis4. cis8 d4 e
+    f f r d %70
+    r c! r h
+    c r <h d, g,> r
+    <c e, g,> r <h d, g,> r
+    <c e, g,> r <h d, g,> r
+    <c e, g,> r <h d, g,> r %75
+    <c e, g,>2 r
+    q q
+    c,, r\fermata \bar "|." %78 finis
+  }
+}

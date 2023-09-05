@@ -541,17 +541,160 @@ SalusSopranoLyrics = \lyricmode {
   bis. %54 finis
 }
 
+ReginaSoprano = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \autoBeamOff \tempoRegina
+    R1*3
+    r2 r4 \mvTr c'\f^\tutti
+    d2. d4 %5
+    e e d( c)
+    h2 r
+    r4 c d g
+    e c r2
+    r4 c d g %10
+    e c r c
+    a2 h
+    c c4 c
+    a2 h4 h
+    c2 c %15
+    cis d4 d
+    e2 f4 r
+    r2 r4 d
+    e4. e8 f4 d
+    h2 c!4 r %20
+    r h c e
+    d2 d4 d
+    d2 d4 d
+    d2 c4 c
+    c2 h %25
+    h a4 a
+    a2 g
+    a b4 b
+    a a r d
+    cis2 cis %30
+    c4. c8 c4 c
+    h2 r4 d
+    e2 dis
+    e c4 c
+    h h c2 %35
+    h r4 d
+    e2 dis
+    e c4 c
+    h2( a)
+    g r4 h %40
+    c c c c
+    d2 d4 d
+    e2 r
+    r4 e e e
+    e2 c4 c %45
+    e2.( d4)
+    c c e e
+    f2 d
+    h4 d d d
+    e2( c) %50
+    a r
+    r4 d d c
+    h2 d4 d
+    e2 e4 e
+    fis2 fis %55
+    g4. d8 d4 h
+    c2 c
+    c a4^\critnote e'8([ d)]
+    c2( h)
+    c r4 c %60
+    c2 c
+    c a4^\critnote e'8([ d)]
+    c2( h)
+    c4 c c c
+    cis2 d4 e %65
+    f2 d
+    c!( h)
+    c4 c c c
+    cis2 d4 e
+    f2 d %70
+    c!( h)
+    c4 c d d
+    e2( d)
+    c r
+    R1*3 %77
+    R1\fermata \bar "|." %78 finis
+  }
+}
 
-
-% Re -- gi -- na An -- ge -- lo -- rum,
-% re -- gi -- na Pa -- tri -- ar -- cha -- rum,
-% re -- gi -- na Pro -- phe -- ta -- rum,
-% re -- gi -- na A -- po -- sto -- lo -- rum,
-% re -- gi -- na Mar -- ty -- rum,
-% re -- gi -- na Con -- fes -- so -- rum,
-% re -- gi -- na Vir -- gi -- num,
-% re -- gi -- na San -- cto -- rum o -- mni -- um,
-% o -- ra pro no -- bis.
+ReginaSopranoLyrics = \lyricmode {
+  Re -- %4
+  gi -- na %5
+  An -- ge -- lo --
+  rum,
+  o -- ra pro
+  no -- bis,
+  o -- ra pro %10
+  no -- bis, re --
+  gi -- na
+  Pa -- tri -- ar --
+  cha -- rum, o --
+  ra pro %15
+  no -- bis, pro
+  no -- bis,
+  re --
+  gi -- na Pro -- phe --
+  ta -- rum, %20
+  o -- ra pro
+  no -- bis, pro
+  no -- bis, re --
+  gi -- na A --
+  po -- sto -- %25
+  lo -- rum, o --
+  ra pro
+  no -- bis, pro
+  no -- bis, re --
+  gi -- na %30
+  Mar -- ty -- rum, o --
+  ra, o --
+  ra pro
+  no -- bis, o --
+  ra pro no -- %35
+  bis, o --
+  ra pro
+  no -- bis, pro
+  no --
+  bis, re -- %40
+  gi -- na Con -- fes --
+  so -- rum, o --
+  ra,
+  o -- ra pro
+  no -- bis, pro %45
+  no --
+  bis, re -- gi -- na
+  Vir -- gi --
+  num, o -- ra pro
+  no -- %50
+  bis,
+  o -- ra pro
+  no -- bis, re --
+  gi -- na San --
+  cto -- rum %55
+  o -- mni -- um, o --
+  ra pro
+  no -- bis, pro
+  no --
+  bis, o -- %60
+  ra pro
+  no -- bis, pro
+  no --
+  bis, o -- ra pro
+  no -- bis, o -- %65
+  ra pro
+  no --
+  bis, o -- ra pro
+  no -- bis, o --
+  ra pro %70
+  no --
+  bis, o -- ra pro
+  no --
+  bis. %74 finis
+}
 
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di: Par -- ce no -- bis, Do -- mi -- ne.
 % A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di: Ex -- au -- di nos, Do -- mi -- ne.

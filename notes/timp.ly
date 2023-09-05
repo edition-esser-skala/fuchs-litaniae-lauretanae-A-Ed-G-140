@@ -35,3 +35,59 @@ KyrieTimpani = {
     c4 r\fermata \bar "|." %51 finis
   }
 }
+
+ReginaTimpani = {
+  \relative c {
+    \clef bass
+    \twotwotime \key c \major \time 2/2 \tempoRegina
+    c2\f r
+    g r
+    c4 r g g
+    c2 r
+    g r %5
+    c r
+    g r
+    r g
+    c4 r r2
+    r4 c g g %10
+    c2 r
+    c1:16
+    c4 r r2
+    c1:16
+    c4 r r2 %15
+    R1*4
+    g4 r c r %20
+    g r c r
+    r2 g4 r
+    R1*17 %39
+    g4 r r2 %40
+    g4 r r2
+    g4 r g r
+    c c r2
+    R1*9 %52
+    g2 r4 g8 g
+    g2 r4 g8 g
+    R1 %55
+    r4 g8 g g4 g
+    c r c r
+    c r r2
+    g4 r g r
+    c r c r %60
+    c r c r
+    c r r2
+    g4 r g r
+    c r r2
+    R1*2 %66
+    g4 r g r
+    c r r2
+    R1*2 %70
+    g4 r g r
+    c r g r
+    c r g r
+    c r g r
+    c c g g %75
+    c r r2
+    c c
+    c r\fermata \bar "|." %78 finis
+  }
+}
