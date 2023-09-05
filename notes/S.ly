@@ -445,15 +445,103 @@ SanctaSopranoLyrics = \lyricmode {
 }
 
 
-% ma -- ter mi -- se -- ri -- cor -- di -- ae,
-% ma -- ter bo -- ni con -- si -- li -- i,
-%   ma -- ter pulch -- rae di -- le -- cti -- o -- nis,
+SalusSoprano = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \autoBeamOff \tempoSalus
+    R1*8 %8
+    \mvTr c'4.\fE^\tuttiE c8 d4. d8
+    c2 h4 h %10
+    c as g4.( f8)
+    es2 r
+    R1
+    r2 r4 es'\fE
+    es4. c8 es2 %15
+    es4( f2) es4
+    d2 d
+    des4( es2) des4
+    c2 c
+    c d!4 es %20
+    f2 as,
+    g g
+    as as4 as
+    as2 g4 r
+    c2 b!4. b8 %25
+    b([ as)] c([ as)] g4 f
+    ges2 ges4 ges
+    c2 es4 es
+    d2 es
+    es d8([ c)] b([ as)] %30
+    g2( as)
+    g4 r r2
+    R1*5 %37
+    b4.\f b8 b4 es
+    d2. d4
+    es2 b4 b %40
+    h h8 h c4 c8 c
+    c2 h4 r
+    R1
+    r4 es\p d c
+    h h r2 %45
+    es es
+    d d4 es8([ f)]
+    f([ es)] es4 es es
+    des2\f des4 des
+    c2 c4 c %50
+    c2.( \grace es8 d!4)
+    c as!\pE g( h)
+    c f, es( d)
+    c r r2
+    R1\fermata \bar "|." %55 finis
+  }
+}
 
-% Sa -- lus in -- fir -- mo -- rum,
-% re -- fu -- gi -- um pec -- ca -- to -- rum,
-% con -- so -- la -- trix af -- fli -- cto -- rum,
-% au -- xi -- li -- um Chri -- sti -- a -- no -- rum,
-% o -- ra pro no -- bis.
+SalusSopranoLyrics = \lyricmode {
+  Sa -- lus in -- fir -- %9
+  mo -- rum, o -- %10
+  ra pro no --
+  bis.
+
+  Re --
+  fu -- gi -- um %15
+  pec -- ca --
+  to -- rum,
+  pec -- ca --
+  to -- rum,
+  o -- ra pro %20
+  no -- bis,
+  o -- ra,
+  o -- ra pro
+  no -- bis,
+  o -- ra, o -- %25
+  ra __ pro no -- bis,
+  o -- ra pro
+  no -- bis, pro
+  no -- bis,
+  o -- ra __ pro %30
+  no --
+  bis.
+
+  Con -- so -- la -- trix %38
+  af -- fli --
+  cto -- rum, au -- %40
+  xi -- li -- um Chri -- sti -- a --
+  no -- rum,
+
+  o -- ra pro
+  no -- bis, %45
+  o -- ra,
+  o -- ra pro
+  no -- bis, o -- ra,
+  o -- ra pro
+  no -- bis, pro %50
+  no --
+  bis, pro no --
+  bis, pro no --
+  bis. %54 finis
+}
+
+
 
 % Re -- gi -- na An -- ge -- lo -- rum,
 % re -- gi -- na Pa -- tri -- ar -- cha -- rum,

@@ -443,3 +443,99 @@ SanctaTenoreLyrics = \lyricmode {
   bis, pro no --
   bis. %169 finis
 }
+
+SalusTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \twotwotime \key c \minor \time 2/2 \autoBeamOff \tempoSalus
+    R1*8 %8
+    \mvTr c4.\fE^\tuttiE c8 as4. as8
+    g2 g4 d' %10
+    c c d2
+    es r
+    R1
+    r2 r4 c\fE
+    c4. c8 c2 %15
+    c2. c4
+    b!2 b
+    b2. b4
+    es2 es
+    f f4 f %20
+    f2 b,
+    b b
+    d d4 d
+    d2 es4 r
+    es2 es4. es8 %25
+    c4 c b b
+    c2 c4 c
+    es2 ges4 ges
+    f2 es
+    c c4 c %30
+    b1
+    b4 r r2
+    R1*5 %37
+    b4.\f b8 b4 b
+    f'2. f4
+    g2 es4 es %40
+    g, g8 g es'4 c8 c
+    es2 d4 r
+    R1
+    r4 g,\p d' es
+    g, g r2 %45
+    c c
+    c h4 c8([ d)]
+    d([ c)] c4 c c
+    as2\fE as4 as
+    a2 a4 a %50
+    g1
+    g4 c\p c( f)
+    es as, g( f)
+    es r r2
+    R1\fermata \bar "|." %55 finis
+  }
+}
+
+SalusTenoreLyrics = \lyricmode {
+  Sa -- lus in -- fir -- %9
+  mo -- rum, o -- %10
+  ra pro no --
+  bis.
+
+  Re --
+  fu -- gi -- um %15
+  pec -- ca --
+  to -- rum,
+  pec -- ca --
+  to -- rum,
+  o -- ra pro %20
+  no -- bis,
+  o -- ra,
+  o -- ra pro
+  no -- bis,
+  o -- ra, o -- %25
+  ra pro no -- bis,
+  o -- ra pro
+  no -- bis, pro
+  no -- bis,
+  o -- ra pro %30
+  no --
+  bis.
+
+  Con -- so -- la -- trix %38
+  af -- fli --
+  cto -- rum, au -- %40
+  xi -- li -- um Chri -- sti -- a --
+  no -- rum,
+
+  o -- ra pro
+  no -- bis, %45
+  o -- ra,
+  o -- ra pro
+  no -- bis, o -- ra,
+  o -- ra pro
+  no -- bis, pro %50
+  no --
+  bis, pro no --
+  bis, pro no --
+  bis. %54 finis
+}

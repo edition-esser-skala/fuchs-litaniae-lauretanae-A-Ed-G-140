@@ -234,3 +234,65 @@ SanctaViolinoI = {
     f,2 r4\fermata \bar "|." %170 finis
   }
 }
+
+SalusViolinoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \tempoSalus
+    c2\p es
+    as4.( b16 as) g4 c
+    c2( h4) d8. es16
+    f4 as,2-> g8. f16
+    f2( es4) as' %5
+    g( f es) as
+    g( f es) des
+    \once \slurDashed c2( h)
+    c4.\f es8 d4.( es16 f)
+    c2 h4 h %10
+    c as g4. f8
+    es4 g'2\fz h,4\p
+    c as g4.( f8)
+    es4 es' es es\f
+    es4. c8 es4 es %15
+    es f2\fz es4
+    d1
+    des4 es2\fz des4
+    c1~
+    c2 d!4 es %20
+    f as~ as8 f( d as)
+    g4 b'~ b8 g( es b)
+    b( as') as-! as-! as( f d b)
+    as2( g4) r
+    c2 b!4. b8 %25
+    b( as c as) g4( f)
+    ges8 ges4 ges8 c c4 c8
+    es es4 es8 c' es, es es
+    d d d d es es es es
+    es4. es8 d( c b as) %30
+    g!4 g as as
+    g8 g'(\p b d, es b c g)
+    f4( as g b)
+    a(\f c b d)
+    h( d c es) %35
+    r8 es\p es es ges( es d es)
+    b b b b b b b b
+    \tuplet 3/2 4 { es,\f g b es[ g as] b g es b[ g es]
+    d[ f as] b d f as[ f d] b as f
+    es[ g b] es g es g,[ b es] g b g %40
+    h,[ d g] h a g c[ c, d] es d c
+    es[ d c] es d c h[ d c] h a g }
+    r16 d'(\p f es d h' d c h as! g as g f es d)
+    c4( es d c)
+    h16( d f es d h' d c h as! g as g f es d) %45
+    es2~ es8 es es es
+    d d d d d-! d( es f)
+    f( es) es4. es8 es es
+    des2\f f8 r as r
+    c,2 a'8 r c r %50
+    g4. es8 c4 \appoggiatura es8 d4
+    c as(\p g h)
+    c f,( es d)
+    c r c c
+    c2 r\fermata \bar "|." %55 finis
+  }
+}

@@ -106,3 +106,49 @@ SanctaCornoI = {
     c2 r4\fermata \bar "|." %170 finis
   }
 }
+
+SalusCornoI = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \major \time 2/2 \tempoSalus
+    R1*8 %8
+    e'2\f \pao d
+    c e4 e %10
+    e r e2
+    e r
+    R1
+    r2 r4 e\f
+    e2 e4 e %15
+    \pao d1
+    d4 d2 d4
+    c1
+    c4 c2 c4
+    R1 %20
+    d4 r d d
+    e r e e
+    d1
+    f2 e4 r
+    R1*4 %28
+    d2 c
+    c1~ %30
+    c4 e f d
+    c r r2
+    R1*2
+    e1\f %35
+    R1*2
+    c4\f c2 c4
+    d1
+    c4 c2 c4 %40
+    e2~ e4 r
+    e2 e4 r
+    R1*3 %45
+    e2\p e
+    R1
+    e
+    R1*2 %50
+    e1\f
+    e4 r r2
+    R1*2
+    R1\fermata \bar "|." %55 finis
+  }
+}

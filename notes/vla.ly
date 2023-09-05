@@ -234,3 +234,65 @@ SanctaViola = {
     c2 r4\fermata \bar "|." %170 finis
   }
 }
+
+SalusViola = {
+  \relative c' {
+    \clef alto
+    \twotwotime \key c \minor \time 2/2 \tempoSalus
+    c1\p
+    c2. fis4
+    g2~ g4 r
+    r d8. c16 h4 g
+    g2~ g4 f' %5
+    g2. f4
+    g( as g) as
+    g1
+    g,2\f f
+    g2. g4 %10
+    g es g2
+    g4 r r d'\pE
+    es c d2
+    es4 g g g\f
+    g2 g4 g %15
+    f f2 f4
+    f1
+    es4 es2 es4
+    es1
+    f2 f4 f %20
+    f r d d
+    es r es es
+    d r d d
+    \once \slurDashed d2( es4) r
+    es2. es4 %25
+    c c b b
+    c8 c4 c8 ges' ges4 ges8
+    ges ges4 ges8 ges ges ges ges
+    f f f f es es es es
+    c2. c4 %30
+    b b b b
+    b r r2
+    R1
+    c4\f f2 f4
+    d g2 g4 %35
+    ges1\p
+    f8 f f f f, f f f
+    g!4\f g2 g4
+    as as2 as4
+    g g b b %40
+    g g c fis
+    g2~ g4 r
+    h,2.\p h4
+    c g2 g4
+    h2. h4 %45
+    c es4. g8 g g
+    as as as as g g g g
+    g2~ g8 g g g
+    f\f f f f f f f f
+    es es es es es es es es %50
+    g2. h,4
+    c \once \slurDashed c2(\p f4)
+    es as,( g f)
+    es r es es
+    es2 r\fermata \bar "|." %55 finis
+  }
+}

@@ -443,3 +443,99 @@ SanctaAltoLyrics = \lyricmode {
   bis, pro no --
   bis. %169 finis
 }
+
+SalusAlto = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \autoBeamOff \tempoSalus
+    R1*8 %8
+    \mvTr es4.\fE^\tuttiE es8 f4. f8
+    es2 d4 g %10
+    g es d2
+    c r
+    R1
+    r2 r4 g'\fE
+    g4. g8 g2 %15
+    f2. f4
+    f2 f
+    es2. es4
+    as2 as
+    as as4 as %20
+    as2 f
+    es es
+    f f4 f
+    f2 es4 r
+    es2 es4. g8 %25
+    g([ f)] as([ f)] es4 d
+    es2 es4 es
+    ges2 c4 c
+    b2 b
+    c b8([ as)] g!([ f)] %30
+    es2( f)
+    es4 r r2
+    R1*5 %37
+    g!4.\f g8 g4 g
+    as2. as4
+    g2 g4 g %40
+    f f8 f g4 fis8 fis
+    g2 g4 r
+    R1
+    r4 g\p f es
+    d d r2 %45
+    g g
+    as g4 g
+    g g g g
+    f2\f f4 f
+    es2 es4 es %50
+    es2.( f4)
+    es f\p es( d)
+    es c c( h)
+    c r r2
+    R1\fermata \bar "|." %55 finis
+  }
+}
+
+SalusAltoLyrics = \lyricmode {
+  Sa -- lus in -- fir -- %9
+  mo -- rum, o -- %10
+  ra pro no --
+  bis.
+
+  Re --
+  fu -- gi -- um %15
+  pec -- ca --
+  to -- rum,
+  pec -- ca --
+  to -- rum,
+  o -- ra pro %20
+  no -- bis,
+  o -- ra,
+  o -- ra pro
+  no -- bis,
+  o -- ra, o -- %25
+  ra __ pro no -- bis,
+  o -- ra pro
+  no -- bis, pro
+  no -- bis,
+  o -- ra __ pro %30
+  no --
+  bis.
+
+  Con -- so -- la -- trix %38
+  af -- fli --
+  cto -- rum, au -- %40
+  xi -- li -- um Chri -- sti -- a --
+  no -- rum,
+
+  o -- ra pro
+  no -- bis, %45
+  o -- ra,
+  o -- ra pro
+  no -- bis, o -- ra,
+  o -- ra pro
+  no -- bis, pro %50
+  no --
+  bis, pro no --
+  bis, pro no --
+  bis. %54 finis
+}

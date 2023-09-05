@@ -186,3 +186,52 @@ SanctaClarinettoII = {
     R2.\fermata \bar "|." %170 finis
   }
 }
+
+SalusClarinettoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \tempoSalus
+    R1*8 %8
+    es2\fE f
+    es d4 d %10
+    g c d2
+    c4 r r2
+    R1
+    r4 g2\fE g4
+    g1 %15
+    c
+    b!~
+    b
+    as
+    R %20
+    as
+    g
+    b4 d d d
+    \once \slurDashed f2( es4) r
+    R1*2 %26
+    c1~
+    c
+    b
+    r2 r8 c( b as) %30
+    g2 as
+    g4 r r2
+    R1*5 %37
+    g1\fE
+    f
+    g %40
+    f2 es4 c
+    es2 d4 r
+    h'1\pE
+    c4 r r2
+    h1( %45
+    c)
+    c2 h4 c8 d
+    d c c2 c4
+    R1
+    es,\fE %50
+    es2. f4
+    es r r2
+    R1*2
+    R1\fermata \bar "|." %55 finis
+  }
+}

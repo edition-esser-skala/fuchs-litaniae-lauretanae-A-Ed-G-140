@@ -234,3 +234,65 @@ SanctaViolinoII = {
     a,2 r4\fermata \bar "|."
   }
 }
+
+SalusViolinoII = {
+  \relative c' {
+    \clef treble
+    \twotwotime \key c \minor \time 2/2 \tempoSalus
+    c1\p
+    es2. c4
+    es2( d4) r
+    r f8. es16 d4 d
+    d2( c4) h' %5
+    c( d c) h
+    c( d c) f,
+    es2( d!)
+    es\f f
+    es d4 d %10
+    c es d2
+    c4 r r f\p
+    g es d2
+    c4 c' c c\f
+    c2 c4 c %15
+    c1
+    b!
+    b
+    as~
+    as2 as4 as %20
+    as r f f
+    g r g g
+    f r f f
+    \once \slurDashed f2( es4) r
+    es2 es4. g8 %25
+    g( f as f) es4( d)
+    es8 es4 es8 es es4 es8
+    c' c4 c8 es c c c
+    b b b b b b b b
+    c4. c8 b( as g f) %30
+    es4 es f f
+    es r r es~\p
+    es8 d r f~ f es r g
+    f4(\f a f b)
+    g( h g c) %35
+    c1\p
+    es,8 es es es d d d d
+    \tuplet 3/2 4 { es\f g b es[ g as] b g es b[ g es]
+    d[ f as] b d f as[ f d] b as f
+    es[ g b] es g es g,[ b es] g b g %40
+    h,[ d g] h a g c[ c, d] es d c }
+    c,4 c d r
+    d2.\p d4
+    es( g f es)
+    d2. d4 %45
+    c c'4. c8 c c
+    c c c c h-\parenthesize-! h( c d)
+    d( c) c4. c8 c c
+    as\f as as as as as as as
+    a a a a c c c c %50
+    es,( g es g) es( g f g)
+    es4 f(\p es d)
+    es \once \slurDashed c2( h4)
+    c r g g
+    g2 r\fermata \bar "|." %55 finis
+  }
+}
