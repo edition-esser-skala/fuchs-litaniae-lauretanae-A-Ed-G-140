@@ -110,3 +110,336 @@ KyrieAltoLyrics = \lyricmode {
   re -- re no --
   bis. %50 finis
 }
+
+SanctaAlto = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \autoBeamOff \tempoSancta
+    \mvTr a'4\f^\tutti b gis
+    a f r
+    a8. a16 b4 gis
+    a8. g16 f4 r
+    e2 f4 %5
+    e( f) e
+    f8. f16 f4 r
+    f f r
+    d\p c c
+    c h r %10
+    h'2\f c8([ h)]
+    h4 c r
+    h h8 h c h
+    h8. c16 c4 r
+    g\p g g %15
+    a a r
+    b! a f
+    e d r
+    g\f g g
+    g8. g16 d4^\critnote r %20
+    g g g
+    g8. g16 d4^\critnote r
+    f f r
+    a a a
+    g2. %25
+    g4 r r
+    R2.
+    f4\fE f8 f f f
+    e4 e r
+    f f8 f f f %30
+    e4 e r
+    f f r8 a
+    b g f4( g)
+    a r r8 a
+    g g f4( e) %35
+    d r r
+    gis gis gis
+    a4. a8 a4
+    fis4. fis8 fis fis
+    g!4. g8 g4 %40
+    a\p a g
+    g2 f!4
+    e4.\f f8 e f
+    g4 g r
+    e4. f8 e^\critnote f %45
+    g2 g4
+    f f as
+    g2 g4
+    f f r
+    f\p f f %50
+    g2 g4
+    as g f
+    es d r
+    es4.\f es8 g g
+    as4. as8 as4 %55
+    g4. g8 g g
+    g4 g r
+    R2.
+    f4 f r
+    f f f %60
+    es es r
+    es es es
+    as2 as4
+    f2 f4
+    es( g) g %65
+    as as r
+    b b r
+    f\p f f
+    f( as) g
+    f es d %70
+    R2.
+    b'4 b2
+    as4 g f
+    ges2\f ges4
+    f f r %75
+    ges ges ges
+    f f r
+    R2.*2
+    f2\p f4 %80
+    es g r
+    as as as
+    b b r
+    R2.
+    g4 as f %85
+    es d r
+    es'\f h c
+    g as f
+    es2( f4)
+    es r r %90
+    as as as
+    g g g
+    f2( as4)
+    g r r
+    R2.*4 %98
+    as4.\p as8 as as
+    as4. as8 as4 %100
+    b4. b8 b b
+    b4. b8 b4
+    as as as
+    as2 as4
+    b b b %105
+    b2 b4
+    c c c
+    c2 c4
+    b2\f b4
+    b b b %110
+    c8. c16 c8 f, f f
+    f4 f r
+    g g g
+    g g r
+    fis4. fis8 fis fis %115
+    g4 g r
+    a a a
+    g4. g8 g4
+    r a a
+    g2 g4 %120
+    g g g
+    f f r
+    f f f
+    f2 f4
+    g g g %125
+    f f r
+    f f f
+    f f r
+    R2.*4 %132
+    f4(\p g) d
+    es4. f8 es4
+    f f f %135
+    f f r
+    a a a
+    g4. g8 g4
+    g g g
+    g4. f!8 f4 %140
+    f2 f4
+    f8([ d')] c([ b)] a([ g)]
+    f2( g4)
+    f r r
+    a2\f b8([ a)] %145
+    a8. b16 b4 r
+    a4. b8 a4
+    a b r
+    e,!4. e8 e4
+    f f r %150
+    h4. h8 h h
+    h4 c r
+    fis, g a
+    g g r
+    e! f! g %155
+    f f r
+    R2.*2
+    g4\p g g
+    f2 f4 %160
+    f\f f r
+    as as as
+    a2( b4)
+    a r a
+    b8 b a4( b) %165
+    a r a
+    b8 b a4( b)
+    a8 a a4( b)
+    a r r
+    R2.\fermata \bar "|." %170 finis
+  }
+}
+
+SanctaAltoLyrics = \lyricmode {
+  San -- cta Ma --
+  ri -- a,
+  san -- cta De -- i
+  ge -- ni -- trix,
+  san -- cta %5
+  vir -- go
+  vir -- gi -- num,
+  o -- ra,
+  o -- ra pro
+  no -- bis, %10
+  ma -- ter
+  Chri -- sti,
+  ma -- ter di -- vi -- nae
+  gra -- ti -- ae,
+  o -- ra pro %15
+  no -- bis,
+  o -- ra pro
+  no -- bis,
+  ma -- ter pu --
+  ris -- si -- ma, %20
+  ma -- ter ca --
+  stis -- si -- ma,
+  o -- ra,
+  o -- ra pro
+  no -- %25
+  bis.
+
+  Ma -- ter in -- vi -- o --
+  la -- ta,
+  ma -- ter in -- te -- me -- %30
+  ra -- ta,
+  o -- ra, o --
+  ra pro no --
+  bis, o --
+  ra pro no -- %35
+  bis,
+  ma -- ter a --
+  ma -- bi -- lis,
+  ma -- ter ad -- mi --
+  ra -- bi -- lis, %40
+  o -- ra pro
+  no -- bis,
+  ma -- ter Cre -- a --
+  to -- ris,
+  ma -- ter Sal -- va -- %45
+  to -- ris,
+  o -- ra pro
+  no -- bis,
+  o -- ra,
+  o -- ra pro %50
+  no -- bis,
+  o -- ra pro
+  no -- bis.
+  Vir -- go pru -- den --
+  tis -- si -- ma, %55
+  vir -- go ve -- ne --
+  ran -- da,
+
+  o -- ra,
+  o -- ra pro %60
+  no -- bis,
+  o -- ra pro
+  no -- bis,
+  vir -- go
+  prae -- di -- %65
+  can -- da,
+  o -- ra,
+  o -- ra pro
+  no -- bis,
+  pro no -- bis, %70
+
+  o -- ra
+  pro no -- bis,
+  vir -- go
+  po -- tens, %75
+  o -- ra pro
+  no -- bis,
+
+  vir -- go %80
+  cle -- mens,
+  vir -- go fi --
+  de -- lis,
+
+  o -- ra pro %85
+  no -- bis,
+  o -- ra pro
+  no -- bis, pro
+  no --
+  bis, %90
+  o -- ra pro
+  no -- bis, pro
+  no --
+  bis.
+
+  Spe -- cu -- lum iu -- %99
+  sti -- ti -- ae, %100
+  se -- des sa -- pi --
+  en -- ti -- ae,
+  o -- ra pro
+  no -- bis,
+  o -- ra pro %105
+  no -- bis,
+  o -- ra pro
+  no -- bis,
+  cau -- sa
+  no -- strae lae -- %110
+  ti -- ti -- ae, o -- ra pro
+  no -- bis,
+  o -- ra pro
+  no -- bis,
+  vas spi -- ri -- tu -- %115
+  a -- le,
+  vas ho -- no --
+  ra -- bi -- le,
+  vas in --
+  si -- gne %120
+  de -- vo -- ti --
+  o -- nis,
+  o -- ra pro
+  no -- bis,
+  o -- ra pro %125
+  no -- bis,
+  o -- ra pro
+  no -- bis.
+
+  Ro -- sa %133
+  my -- sti -- ca,
+  o -- ra pro %135
+  no -- bis,
+  tur -- ris Da --
+  vi -- di -- ca,
+  tur -- ris e --
+  bur -- ne -- a, %140
+  o -- ra,
+  o -- ra __ pro
+  no --
+  bis,
+  do -- mus %145
+  au -- re -- a,
+  foe -- de -- ris
+  ar -- ca,
+  ia -- nu -- a
+  coe -- li, %150
+  stel -- la ma -- tu --
+  ti -- na,
+  o -- ra pro
+  no -- bis,
+  o -- ra pro %155
+  no -- bis,
+
+  o -- ra pro %159
+  no -- bis, %160
+  o -- ra,
+  o -- ra pro
+  no --
+  bis, o --
+  ra pro no -- %165
+  bis, o --
+  ra pro no --
+  bis, pro no --
+  bis. %169 finis
+}

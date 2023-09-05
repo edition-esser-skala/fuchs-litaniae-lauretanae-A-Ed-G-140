@@ -57,3 +57,180 @@ KyrieViolinoI = {
     c4 r\fermata \bar "|." %51 finis
   }
 }
+
+SanctaViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 3/4 \tempoSancta
+    c'4(\f d h)
+    c a16 a'( g f e f g f)
+    c4( d h)
+    c8. b16 a a'( g f e f g f)
+    g,2( a4) %5
+    g( h c)
+    d~ d16 a( h cis d cis d e)
+    f4. d8( e f)
+    \once \slurDashed f,4(\p e) e
+    e( d8) g( h d) %10
+    f2\f \once \slurDashed e8( d)
+    \once \slurDashed d4( c16) g'( a g f e d c)
+    f2 e8( d)
+    d8.( c16) c8 g' e16 f d e
+    c2\p cis4 %15
+    e8[ d] d a d f
+    g4( f d)
+    c! h8 g h c
+    d\f g, f' g, e' g,
+    d'4 h'8.(\trill a32 h) c8 c %20
+    d, g, f' g, e' g,
+    d'4 h'8.(\trill a32 h) c8 c
+    a d, r d cis16( d e d)
+    a'8 c, r c h16( c d c)
+    g'8 c e, g h, d %25
+    c4 b\p b
+    b( a g)
+    f16(\f d f a) d( a d f a f e d)
+    cis( a cis e) a( gis a gis a g f e)
+    d( d, f a) d( a d f a f e d) %30
+    cis( a cis e) a( gis a gis a g f e)
+    f( d f a) d( cis d cis d a f d)
+    b'8( g f a cis, e)
+    d( f16 a) d( cis d cis d a f d)
+    b'8( g f a cis, e) %35
+    d d,16_( e f8) a-! d-! e-!
+    f4. d8 h4
+    r16 e( fis gis a gis a gis) a8 a,
+    es'4. c!8 a4
+    r16 d( e fis g fis g fis) g8 g, %40
+    c4.\p( d8 b!4)
+    b4.( c8 a4)
+    g4.(\f a8 g h)
+    c r e r g r
+    g,4.( a8 g h) %45
+    c r e r g r
+    c, r f r as r
+    c, r g' r b r
+    as4 as r
+    as\p as r %50
+    g g r
+    f( es d)
+    c( h8) g'( f d)
+    c4~\f c16 c, es g c8 es
+    d4~ d16 d, f as d8 f %55
+    d4~ d16 g, h d g8 f
+    es es es es es es
+    es es es es es es
+    es es es es es es
+    d d d d d d %60
+    des des des des des des
+    c c c c c c
+    c c c c c c
+    f4( e! f)
+    c'8( b as g f es) %65
+    b'( as g f es d)
+    es( f g es) b[ es]
+    es4(\p f es)
+    d( c b)
+    as( g f) %70
+    es'( f es)
+    d b'2~
+    b16( g as f) es4 d
+    es8\f es4 es es8
+    d( b16 d) f8( d16 f) b8 d %75
+    es, es4 es es8
+    d f b b a!16( b c b)
+    f4(\p e! f)
+    c'8( b as g f es)
+    f4( e f) %80
+    c'8( b as g f es)
+    b'( as g f es d)
+    es b g es g16( b es b)
+    g'4( d es)
+    h( c as) %85
+    g( f8) b c16( d es f)
+    g8\f g d d es es
+    h h c c as as
+    g g g g f f
+    es es g16( b es b) g'8 es %90
+    d d4 d d8
+    es es, g16( b es b) g'8 es
+    d d4 d d8
+    es g g\p g g g
+    f f f f f f %95
+    es es es es es es
+    des des c c b b
+    as c c c c c
+    c c c c c c
+    as'4( g as) %100
+    des,8 des des des des des
+    b'( as g f es des)
+    c c c c c c
+    as'4( g as)
+    d,!8 d d d d d %105
+    b'4( a! b)
+    es,8 es es es es es
+    c'4( h c)
+    b~\f b16( as g f es d c b)
+    es4( f g) %110
+    f~ f16 g( f e) f8 es
+    \once \slurDashed es4( d8) f( b d)
+    g,4~ g16 as( g fis) g8 f
+    f4( es8) g( c es)
+    d fis, r fis a16( g a fis) %115
+    g8 d r d b'16( a b g)
+    a8 d, r d c'16( b c a)
+    b8 d, d d d d
+    c' c, c c c c
+    b g' r g h,16( c d h) %120
+    c8 r es r g r
+    a, f' r f a,16( b c a)
+    b8 r d r f r
+    es4.( f8 d4)
+    c4.( d8 b4) %125
+    a <f c' a'> <f d' b'>
+    <f c' a'> q <f d' b'>
+    <f c' a'> <a f'> r
+    d(\p es h)
+    c4.( d8 c4) %130
+    e!8( f g f es f)
+    d( b') a([-. g-. f-. es-.)]
+    d4( es h)
+    c4.( d8 c4)
+    es( f) c %135
+    \once \slurDashed es( d8) f( b d)
+    d,4-! d( c)
+    b4.( c8 d4)
+    c-! c( b)
+    b4.( a8) a4 %140
+    c2 cis4
+    d8( f e! d c b)
+    a2( \grace c8 b4)
+    a8( f e f a c)
+    es2\f d8( c) %145
+    c8. b16 b f'( g f es d c b)
+    es4.( d8 c4)
+    c( b8) b b b
+    b4.( c8 b4)
+    a8 c4 f a8 %150
+    f f4 f8 \once \slurDashed g([ f])
+    f4 e8( c h c)
+    es4( d c)
+    b g'8 r b r
+    d,4( c b) %155
+    a f'8 r a r
+    c,2.\p
+    c8 r c r c r
+    c2.
+    c8 r c r c r %160
+    d4.\f d8 d d
+    f4. f8 f f
+    f16 f f f f f f f e e e e
+    f( g a g f e d c b a g f)
+    d'4( c e) %165
+    f16( g a g f e d c b a g f)
+    \once \slurDashed d'4( c e)
+    f8. c16 f4 e
+    f r f
+    f,2 r4\fermata \bar "|." %170 finis
+  }
+}
