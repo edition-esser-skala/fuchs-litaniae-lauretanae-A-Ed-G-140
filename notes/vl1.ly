@@ -381,3 +381,70 @@ ReginaViolinoI = {
     c,, r\fermata \bar "|." %78 finis
   }
 }
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoAgnus
+    a'8.\f c16 e4 c
+    h8. c16 a4 r8 a
+    d4 d8 c h a
+    a4 gis r
+    h'8.\p c16 d4 e, %5
+    c'8. h16 a( g! f e d c h a)
+    h'8. c16 d4 e,
+    c'8\f c c c h h
+    ais ais a a g! g
+    f!8~ f32 c( d e) f8 f32( e f g) f16 f f f %10
+    f8. d16 d'( c h a g a g f)
+    e8\p e e e d d
+    d8.( c16) c8 c( h a)
+    g!8. a16 h4 dis,
+    e8 g'\p h( e, fis dis) %15
+    e c ais h gis a
+    fis g4 fis e8
+    a g fis4 fis
+    e16\f g32 h e16 g h4 g
+    fis8. g16 e4 r8 e %20
+    a4 a8 g f? e
+    e4 dis r
+    d8.\p e16 f!4 d
+    c16 e g8~ g16 fis32( g) a16 g f( e d c)
+    d8.\f e16 f8 d g( e) %25
+    f8. g16 a8 f b g
+    a a a a h h
+    c8. g16 c8 c h a!
+    g8. f16 e4( d)
+    c8 e g\p cis,( d) e-! %30
+    f a a, \once \slurDashed h( c) d-\parenthesize-!
+    e16( g a, d) c4 h
+    c8.\f e16 g4 e
+    d8.( e16) c4 r8 c
+    f4 f8 e d c! %35
+    c4 h r
+    d8.\p e16 f4 h,
+    c16 e g8~ g16 fis32 g a16 g f( e d c)
+    h8. d16 f4 h,
+    c8\cresc c c c c c %40
+    cis\f cis d d e e
+    f8.( d16) d'-! cis( d c h a g f)
+    e8.( c16) c'-! h( c h a g f e)
+    d( a' f d) c4 h
+    c16( g e' c) g'( e) c'-! h-! a-! g-! f-! e-! %45
+    d( a' f d) c4 h
+    c16( g e' c g' e c' h) \once \slurDashed a( g f e)
+    e( d cis d) f( e dis e) g( f e f)
+    a8 a a a a a
+    a8. f16 d8 d d d %50
+    b'8.( g32 e) cis8 cis cis cis
+    d'8. a16 f8 d' d d
+    c! c c c c c
+    c c c c c c
+    c16 c c c c c c c h h h h %55
+    c8 c,( e g f h,)
+    c-! c( e g f h,)
+    c4 <e c g> <g c, e,>
+    <c e, g,> r c,,
+    c2.\fermata \bar "|." %60 finis
+  }
+}

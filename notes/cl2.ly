@@ -317,3 +317,59 @@ ReginaClarinettoII = {
     e, r\fermata \bar "|." %78 finis
   }
 }
+
+AgnusClarinettoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoAgnus
+    R2.*4
+    e2.~\p %5
+    e~
+    e
+    e4 r r
+    R2.
+    c'\f %10
+    d
+    R
+    r4 r8 c(\p h a)
+    g!8. a16 h4 a
+    g r r %15
+    R2.*7 %22
+    g2.~\p
+    g
+    g4\f g c %25
+    c2 b4
+    a r r
+    R2.
+    c8.( d16) c4 h!
+    c r r %30
+    R2.*2
+    c2.\f
+    h4 a r8 a
+    a4 a8( g f e) %35
+    e4 d r
+    h'2.\p
+    c
+    h
+    c %40
+    cis4\fE a a
+    a r r
+    R2.*2
+    c2. %45
+    d4( c h)
+    c2.
+    c4 c c
+    cis( d e)
+    f d2 %50
+    e4 cis2
+    d2.
+    c!
+    c4 c c
+    c2 g4 %55
+    e g a8 h
+    c2 a8 h
+    c2.
+    c4 r c
+    c2.\fermata \bar "|." %60 finis
+  }
+}

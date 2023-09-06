@@ -106,3 +106,32 @@ ReginaClarinoI = {
     c r\fermata \bar "|." %78 finis
   }
 }
+
+AgnusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoAgnus
+    R2.*25 %25
+    c'4\f c8 c c c
+    c4 r r
+    R2.*5 %32
+    c2\fE c4
+    R2.*3 %36
+    \pa g2.~\p
+    g
+    g2 g4 \pd
+    c2 r4 %40
+    R2.*6 %46
+    \pao g2.\f
+    c8 c c c c c
+    R2.*4 %52
+    c4. c8 c c
+    c2.
+    \pao g2 d'4 %55
+    c r r
+    c r r
+    c2 c4
+    c r r
+    R2.\fermata \bar "|." %60 finis
+  }
+}

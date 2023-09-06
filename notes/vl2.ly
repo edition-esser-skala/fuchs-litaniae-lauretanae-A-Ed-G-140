@@ -381,3 +381,70 @@ ReginaViolinoII = {
     c, r\fermata \bar "|." %78 finis
   }
 }
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoAgnus
+    c2\f e4
+    d c r8 c
+    a'4 a,8 c d c
+    c4 h r
+    h8\p h h h h h %5
+    c c c c c c
+    h h h' h h h
+    a a' a a g! g
+    g g fis fis e e
+    c c c c c c %10
+    d d d d d d
+    g,\p g g g gis gis
+    \slurDashed h8.( a16) a8 a( g! fis) \slurSolid
+    e2 fis4
+    e r8 h'(\p c a) %15
+    h g4 fis8 f e
+    es d c4 h
+    dis8 e e4 dis
+    e(\f g h)
+    a g r8 g %20
+    a4 c8 h a g
+    g4 fis r
+    f8\p f d d f f
+    e e e e e e
+    f\f f d d c c' %25
+    c c c c c c
+    c f f f as as
+    g g g g g f
+    c8. d16 c4( h)
+    c r8 g(\p a) a-! %30
+    a4 r8 f( g) g-!
+    g f e4 d
+    e2\f g4
+    f e r8 e
+    a4 a8 g f e %35
+    e4 d r
+    f8\p f d d f f
+    e e e e e e
+    f f d d f f
+    e\cresc e e e e e %40
+    e\f e a a a a
+    a4 g r
+    g g2
+    a8. f16 e4 d
+    g2. %45
+    f8( a16 f) e4 d
+    g2 g4
+    a8 a b b c c
+    d16( cis h cis) e( d cis d) f( e d e)
+    f4 a,8 a a a %50
+    g4 b8 b b b
+    a4 a8 a a a
+    es' es es es es es
+    e e e e e e
+    d16 d d d d d d d d d d d %55
+    c4 b a8( as)
+    \once \slurDashed g4( b) a8( as)
+    g4 <g c e> <e c' g'>
+    <g c e> r c,
+    c2.\fermata \bar "|." %60 finis
+  }
+}

@@ -317,3 +317,59 @@ ReginaClarinettoI = {
     c r\fermata \bar "|." %78 finis
   }
 }
+
+AgnusClarinettoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoAgnus
+    R2.*4
+    e'2.~\p %5
+    e~
+    e
+    e4 r r
+    R2.
+    f!\f %10
+    g
+    R
+    r4 r8 a(\p g fis)
+    e8. fis16 g4 fis
+    e r r %15
+    R2.*7 %22
+    d2.\p
+    e
+    d8.\f e16 d4 e %25
+    f2 g4
+    f r r
+    R2.
+    \once \slurDashed g8.( f16) e4 d
+    e r r %30
+    R2.*2
+    e2.\f
+    d8. e16 c4 r8 c
+    f4 f8( e d c!) %35
+    c4 h r
+    d2.\p
+    e
+    d
+    e %40
+    e4\f a g
+    f r r
+    R2.*2
+    g2. %45
+    f4( e d)
+    g2.
+    d4( e f)
+    a2.
+    a %50
+    b4 e,2
+    a2.
+    a
+    g4 e e
+    d2 d4 %55
+    c e f8 d
+    e2 f8 d
+    e2.
+    e4 r c
+    c2.\fermata \bar "|." %60 finis
+  }
+}

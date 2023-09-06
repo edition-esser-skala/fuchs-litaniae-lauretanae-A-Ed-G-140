@@ -696,6 +696,121 @@ ReginaSopranoLyrics = \lyricmode {
   bis. %74 finis
 }
 
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di: Par -- ce no -- bis, Do -- mi -- ne.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di: Ex -- au -- di nos, Do -- mi -- ne.
-% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di: Mi -- se -- re -- re no -- bis.
+AgnusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoAgnus
+    \mvTr a'2\f^\tuttiE c4
+    h8.([ c16)] a4 r8 a
+    d4 d8 c h a
+    a4 gis r
+    R2.*2 %6
+    h2\p h4
+    c2\f h4
+    ais( a) g!
+    f!8. f16 f4 r %10
+    f'2 f4
+    e2\p d4
+    d8. c16 c4 h8 a
+    g!8.([ a16] h4) dis,
+    e r r %15
+    R2.*3
+    h'2\f g4
+    fis8.([ g16)] e4 r8 e' %20
+    c4 c8 h a g
+    g4 fis r
+    r r d'!\p
+    c c c
+    d8.([\f e16)] d4 c %25
+    c c b
+    a8. a16 a4 h
+    c c h8([ a!)]
+    g8.([ f16] e4) f
+    e r r %30
+    R2.*2
+    c'2\f e4
+    d8.([ e16)] c4 r8 c
+    f4 f8 e d c! %35
+    c4 h r
+    R2.*2
+    h2\p h4
+    c2 c4 %40
+    cis(\f d) e
+    f8.([ d16)] f4 r
+    r e e
+    d8 d c4 h
+    c2 c4 %45
+    d8 d c4 h
+    c2 c4
+    c( e) f
+    cis( d) e
+    f d2 %50
+    cis2.
+    d4 d d
+    c!2 c4
+    c4. c8 c c
+    c2( h4) %55
+    c r r
+    c4. e8 f h,!
+    c2.
+    c4 r r
+    R2.\fermata \bar "|." %60 finis
+  }
+}
+
+AgnusSopranoLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+
+  Par -- ce, %7
+  par -- ce
+  no -- bis,
+  Do -- mi -- ne, %10
+  par -- ce
+  no -- bis,
+  Do -- mi -- ne, no -- bis,
+  Do -- mi --
+  ne. %15
+
+  A -- gnus %19
+  De -- i, qui %20
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Ex --
+  au -- di, ex --
+  au -- di, ex -- %25
+  au -- di nos,
+  Do -- mi -- ne, ex --
+  au -- di nos,
+  Do -- mi --
+  ne. %30
+
+  A -- gnus %33
+  De -- i, qui
+  tol -- lis pec -- ca -- ta %35
+  mun -- di:
+
+  Mi -- se -- %39
+  re -- re, %40
+  mi -- se --
+  re -- re,
+  mi -- se --
+  re -- re no -- bis,
+  mi -- se -- %45
+  re -- re no -- bis,
+  mi -- se --
+  re -- re,
+  mi -- se --
+  re -- re %50
+  no --
+  bis, mi -- se --
+  re -- re,
+  mi -- se -- re -- re
+  no -- %55
+  bis,
+  mi -- se -- re -- re
+  no --
+  bis. %59 finis
+}

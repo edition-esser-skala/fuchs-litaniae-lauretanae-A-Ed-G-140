@@ -381,3 +381,70 @@ ReginaViola = {
     c r\fermata \bar "|." %78 finis
   }
 }
+
+AgnusViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/4 \tempoAgnus
+    e2\f e4
+    gis a r8 a
+    a4. g8 f fis
+    e2 r4
+    e8\p e e e e e %5
+    e e e e e e
+    e e e e e e
+    e'\f e dis dis e
+    e e e c c h h
+    c, c c c a' a %10
+    g g g g g g
+    g\p g e e e e
+    e4~ e8 a,( h c)
+    h h g! g a a
+    g4 r8 g'(\p a fis) %15
+    g e4 dis8 d cis
+    c h a4 g
+    h8 h c4 h8 a
+    g4\f e' h
+    dis e r8 c %20
+    c4 a8 h c cis
+    h4 h r
+    g'8\p g g g g g
+    g g g g g g
+    g\f g g g g g %25
+    c, c c c c c
+    c c c' c f, f
+    g g c, c c c
+    c8. a16 \once \slurDashed g4( f)
+    e r8 e'(\p f cis) %30
+    d4 r8 d( e h)
+    c! a g2
+    g\f c4
+    h c r8 e
+    d4 f,8 g a a %35
+    g4 g r
+    h8\p h h h d d
+    c c c c c c
+    d d h h d d
+    e\cresc g g g g g %40
+    a\f a a, a a a
+    a4 d r
+    c! c2
+    a8. a'16 g4 g
+    c,2. %45
+    a8 a' g g g g
+    c,2 c4
+    c8 c c c c c
+    g g a a a a
+    a4 a'8 a a a %50
+    e4 e8 e e e
+    a,4 a8 a a a
+    a' a a a a a
+    g g g g g g
+    g16 g g g g g g g g g g g %55
+    g8( e) c4 f8( d)
+    e4( c) f8( d)
+    e4 g g
+    c, r c
+    c2.\fermata \bar "|." %60 finis
+  }
+}

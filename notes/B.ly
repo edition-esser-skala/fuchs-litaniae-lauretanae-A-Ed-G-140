@@ -690,3 +690,122 @@ ReginaBassoLyrics = \lyricmode {
   no --
   bis. %74 finis
 }
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \autoBeamOff \tempoAgnus
+    \mvTr a'2\f^\tuttiE a4
+    e a, r8 a'
+    f4 f8 e d dis
+    e4 e r
+    R2.*2 %6
+    gis2\p gis4
+    a(\f fis) g
+    cis,( dis) e
+    a,8. a16 a'4 r %10
+    h2 h4
+    c2\p h4
+    a8. a16 a8([ fis)] g! a
+    h2 h,4
+    e r r %15
+    R2.*3
+    e2\f e4
+    h c r8 c %20
+    fis4 fis8 g a ais
+    h4 h r
+    r r h\p
+    c c c
+    h\f h b %25
+    a a e
+    f8. f16 f4 d
+    e e f
+    e8.([ f16] g4) g
+    c, r r %30
+    R2.*2
+    c2\f c'4
+    g a r8 a
+    d,4 d8 e f fis %35
+    g4 g r
+    R2.*2
+    g2\p g4
+    c2 b4 %40
+    a(\f f) cis
+    d h! r
+    r e e
+    f8 f g4 g
+    e2 e4 %45
+    f8 f g4 g
+    e2 e4
+    f( g) a
+    e( f) cis
+    d f2 %50
+    e4( g2)
+    f4 f f
+    fis2 fis4
+    g4. g8 g g
+    g2. %55
+    c,4 r r
+    c4. c8 c c
+    c2.
+    c4 r r
+    R2.\fermata \bar "|." %60 finis
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus
+  De -- i, qui
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+
+  Par -- ce, %7
+  par -- ce
+  no -- bis,
+  Do -- mi -- ne, %10
+  par -- ce
+  no -- bis,
+  Do -- mi -- ne, __ no -- bis,
+  Do -- mi --
+  ne. %15
+
+  A -- gnus %19
+  De -- i, qui %20
+  tol -- lis pec -- ca -- ta
+  mun -- di:
+  Ex --
+  au -- di, ex --
+  au -- di, ex -- %25
+  au -- di nos,
+  Do -- mi -- ne, ex --
+  au -- di nos,
+  Do -- mi --
+  ne. %30
+
+  A -- gnus %33
+  De -- i, qui
+  tol -- lis pec -- ca -- ta %35
+  mun -- di:
+
+  Mi -- se -- %39
+  re -- re, %40
+  mi -- se --
+  re -- re,
+  mi -- se --
+  re -- re no -- bis,
+  mi -- se -- %45
+  re -- re no -- bis,
+  mi -- se --
+  re -- re,
+  mi -- se --
+  re -- re %50
+  no --
+  bis, mi -- se --
+  re -- re,
+  mi -- se -- re -- re
+  no -- %55
+  bis,
+  mi -- se -- re -- re
+  no --
+  bis. %59 finis
+}
