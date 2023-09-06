@@ -1,21 +1,20 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "cl 1")
 \include "score_settings/one-staff.ly"
 
 \book {
   \bookpart {
     \section "1" "Kyrie"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper { indent = 2.5\cm systems-per-page = #6 }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Organo"
-          \KyrieOrgano
+          \set Staff.instrumentName = \transposedName "Clarinetto I" "C" ""
+          \KyrieClarinettoI
         }
-        \new FiguredBass { \KyrieBassFigures }
       >>
     }
   }
@@ -24,18 +23,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SanctaOrgano }
-        \new FiguredBass { \SanctaBassFigures }
+        \new Staff { \SanctaClarinettoI }
       >>
     }
   }
   \bookpart {
     \section "3" "Salus infirmorum"
     \addTocEntry
+    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \SalusOrgano }
-        \new FiguredBass { \SalusBassFigures }
+        \new Staff { \SalusClarinettoI }
       >>
     }
   }
@@ -44,18 +42,17 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \ReginaOrgano }
-        \new FiguredBass { \ReginaBassFigures }
+        \new Staff { \ReginaClarinettoI }
       >>
     }
   }
   \bookpart {
     \section "5" "Agnus Dei"
+    \paper { systems-per-page = #6 }
     \addTocEntry
     \score {
       <<
-        \new Staff { \AgnusOrgano }
-        \new FiguredBass { \AgnusBassFigures }
+        \new Staff { \AgnusClarinettoI }
       >>
     }
   }

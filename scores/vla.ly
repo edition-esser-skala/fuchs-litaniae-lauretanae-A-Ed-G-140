@@ -1,7 +1,7 @@
 \version "2.24.0"
 
 \include "../definitions.ly"
-#(define option-instrument-name "org")
+#(define option-instrument-name "vla")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,10 +12,9 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Organo"
-          \KyrieOrgano
+          \set Staff.instrumentName = "Viola"
+          \KyrieViola
         }
-        \new FiguredBass { \KyrieBassFigures }
       >>
     }
   }
@@ -24,8 +23,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SanctaOrgano }
-        \new FiguredBass { \SanctaBassFigures }
+        \new Staff { \SanctaViola }
       >>
     }
   }
@@ -34,8 +32,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \SalusOrgano }
-        \new FiguredBass { \SalusBassFigures }
+        \new Staff { \SalusViola }
       >>
     }
   }
@@ -44,8 +41,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \ReginaOrgano }
-        \new FiguredBass { \ReginaBassFigures }
+        \new Staff { \ReginaViola }
       >>
     }
   }
@@ -54,8 +50,7 @@
     \addTocEntry
     \score {
       <<
-        \new Staff { \AgnusOrgano }
-        \new FiguredBass { \AgnusBassFigures }
+        \new Staff { \AgnusViola }
       >>
     }
   }
